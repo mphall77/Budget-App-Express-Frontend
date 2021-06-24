@@ -5,7 +5,9 @@ const Transaction = ({ transaction, index }) => {
 		<tr>
 			{/* <td>{transaction.from}</td> */}
 			<td>{transaction.date}</td>
-			<Link to={`/transactions/${index}`}>{transaction.name}</Link>
+			<td>
+				<Link to={`/transactions/${index}`}>{transaction.name}</Link>
+			</td>
 			<td>{transaction.amount}</td>
 		</tr>
 	);
