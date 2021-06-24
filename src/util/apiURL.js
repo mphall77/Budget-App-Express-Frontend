@@ -6,5 +6,5 @@ export const apiURL = () => {
 	) {
 		return "http://localhost:3001";
 	}
-	return "https://calm-journey-53565.herokuapp.com/";
+	return "https://calm-journey-53565.herokuapp.com";
 };
