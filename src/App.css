@@ -65,14 +65,18 @@ th {
 }
 
 /* N E W -from */
-.New {
-	border: 1px solid #000;
-	margin: 10px;
-	width: 90%;
+.NewContainer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.New {
+	border: 1px solid #000;
+	margin: 10px;
+	width: 90%;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .New form {
