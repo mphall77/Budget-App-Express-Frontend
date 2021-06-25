@@ -1,30 +1,17 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 const Balance = ({ transactions }) => {
-	// debugger;
-	// const [balance, setBalance] = useState([]);
-
-	// const accBalance = (transactions) => {
 	let sum = 0;
-	// 	let total = 0;
-	// 	total = transactions.map((transaction) => {
-	// 		sum += transaction.amount;
-	// 		return sum;
-	// 	});
-	// 	setBalance(total);
-	// };
+	let total = 0;
 
-	// useEffect(() => {
-	// 	accBalance();
-	// }, []);
 	return (
-		<>
-			Account Balance:
+		<section className="Balance">
 			{transactions.map((transaction) => {
-				return (sum += Number(transaction.amount));
+				sum += transaction.amount;
+				total = sum;
 			})}
-		</>
+			Account Balance: ${total}
+		</section>
 	);
 };
 export default Balance;
