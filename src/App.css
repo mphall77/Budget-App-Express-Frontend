@@ -38,7 +38,7 @@ table {
 	border-collapse: collapse;
 	width: 90%;
 	height: 70%;
-	margin: 20px 0;
+	margin: 10px 0;
 	border-bottom: 2px solid #04aa6d;
 }
 
@@ -141,7 +141,7 @@ button:hover {
 }
 
 .Balance {
-	margin: 20px;
+	margin-top: 15px;
 }
 
 .Transactions {
@@ -151,6 +151,7 @@ button:hover {
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+	text-align: left;
 }
 
 @media (min-width: 40em) {

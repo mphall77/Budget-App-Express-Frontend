@@ -10,7 +10,7 @@ const Balance = ({ transactions }) => {
 				sum += transaction.amount;
 				total = sum;
 			})}
-			Account Balance: ${total}
+			<h3>Account Balance: ${total}</h3>
 		</section>
 	);
 };
