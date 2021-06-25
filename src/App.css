@@ -5,6 +5,7 @@
 /* Global */
 a {
 	text-decoration: none;
+	color: #04aa6d;
 }
 
 a:visited {
@@ -35,7 +36,10 @@ nav a:hover {
 table {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
-	width: 50%;
+	width: 90%;
+	height: 70%;
+	margin: 20px 0;
+	border-bottom: 2px solid #04aa6d;
 }
 
 td,
@@ -64,11 +68,15 @@ th {
 .New {
 	border: 1px solid #000;
 	margin: 10px;
-	width: 100%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .New form {
-	margin: 10px;
+	margin: 30px;
 	width: 95%;
 }
 
@@ -122,4 +130,35 @@ button {
 button:hover {
 	color: #fff;
 	cursor: pointer;
+}
+
+/* INDEX */
+.Index {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Balance {
+	margin: 20px;
+}
+
+.Transactions {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 40em) {
+	.Transactions {
+		width: 70%;
+	}
+}
+
+.negative {
+	color: red;
 }

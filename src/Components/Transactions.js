@@ -5,7 +5,6 @@ import Balance from "./Balance";
 const Transactions = ({ transactions }) => {
 	return (
 		<section className="Transactions">
-			<h1>Transactions</h1>
 			<Balance transactions={transactions} />
 			<table>
 				<thead>

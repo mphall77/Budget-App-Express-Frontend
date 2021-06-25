@@ -23,7 +23,6 @@ const NewTrans = (props) => {
 
 	return (
 		<div className="New">
-			<h1>New Transaction</h1>
 			<form onSubmit={handleSubmit}>
 				<label>
 					From:
